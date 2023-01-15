@@ -1,65 +1,27 @@
-# next-js-13-snippets README
+# Next.js 13 Snippets
 
-This is the README for your extension "next-js-13-snippets". After writing up a brief description, we recommend including the following sections.
+Next.js 13 snippets. VS Code snippets to help you migrate your `next` application to the new app folder and nested layouts paradigm. Currently supports `javascript`, `tsx`, and `jsx`!
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Import all layouts described here in the `next` 13 docs: https://beta.nextjs.org/docs/routing/pages-and-layouts#layouts.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Here's a list of commands currently supported:
+- `rlayout`: create a [root layout](https://beta.nextjs.org/docs/routing/pages-and-layouts#root-layout-required)
+- `layout`: create a [nested layout](https://beta.nextjs.org/docs/api-reference/file-conventions/layout)
+- `page`: create a [page](https://beta.nextjs.org/docs/api-reference/file-conventions/page)
+- `cpage`: create a [client-based page](https://beta.nextjs.org/docs/api-reference/file-conventions/loading)
+- `loading`: create a [loading UI](https://beta.nextjs.org/docs/api-reference/file-conventions/loading)
+- `error`: create a [error UI](https://beta.nextjs.org/docs/api-reference/file-conventions/error)
+- `head`: create a [head](https://beta.nextjs.org/docs/api-reference/file-conventions/head) file for a particular rout
+- `notfound`: create a [not found UI](https://beta.nextjs.org/docs/api-reference/file-conventions/not-found)
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No current known issues
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+The initial release! All current commands are described in the [features](#features) section. The code they generate is the same as the examples provided in the `next` 13 [documentation](httsp://beta.nextjs.org). Message me on [twitter](https://twitter.com/liam_grossman) if you would like to contribute! 
