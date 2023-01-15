@@ -1,0 +1,125 @@
+{
+  "Typescript layout": {
+    "scope": "typescriptreact",
+    "prefix": "layout",
+    "body": [
+      "export default function $1Layout({ children }: { children: React.ReactNode; }) {",
+      "\treturn children",
+      "}"
+    ],
+    "description": "Create a layout for this route"
+  },
+  "Layout": {
+    "scope": "javascriptreact, javascript",
+    "prefix": "layout",
+    "body": [
+      "export default function $1Layout({ children }) {",
+      "\treturn children",
+      "}"
+    ],
+    "description": "Create a layout for this route"
+  },
+  "Page": {
+    "scope": "javascriptreact, javascript, typescriptreact",
+    "prefix": "page",
+    "body": [
+      "export default function $1Page() {",
+      "\treturn (",
+      "\t\t$2)",
+      "}"
+    ],
+    "description": "Create a page"
+  },
+  "Client Page": {
+    "scope": "javascriptreact, javascript, typescriptreact",
+    "prefix": "cpage",
+    "body": [
+      "'use client'",
+      "",
+      "export default function $1Page() {",
+      "\treturn (",
+      "\t\t$2",
+      "\t)",
+      "}"
+    ],
+    "description": "Create a client based page"
+  },
+  "Typescript Root Layout": {
+    "scope": "typescriptreact",
+    "prefix": "rlayout",
+    "body": [
+      "export default function RootLayout({ children }: { children: React.ReactNode; }) {",
+      "\treturn (",
+      "\t\t<html lang='en'>",
+      "\t\t\t<body>{children}</body>",
+      "\t\t</html>",
+      "\t)",
+      "}"
+    ],
+    "description": "Create a root layout"
+  },
+  "Root layout": {
+    "scope": "javascriptreact, javascript",
+    "prefix": "rlayout",
+    "body": [
+      "export default function RootLayout({ children }) {",
+      "\treturn (",
+      "\t\t<html lang='en'>",
+      "\t\t\t<body>{children}</body>",
+      "\t\t</html>",
+      "\t)",
+      "}"
+    ],
+    "description": "Create a root layout"
+  },
+  "Loading": {
+    "scope": "javascriptreact, javascript, typescriptreact",
+    "prefix": "loading",
+    "body": [
+      "export default function $1Loading() {",
+      "\treturn (",
+      "\t\t$2",
+      "\t)",
+      "}"
+    ],
+    "description": "Create a loading UI for this route"
+  },
+  "Error": {
+    "scope": "javascriptreact, javascript, typescriptreact",
+    "prefix": "error",
+    "body": [
+      "'use client'",
+      "",
+      "export default function $1Error() {",
+      "\treturn (",
+      "\t\t$2",
+      "\t)",
+      "}"
+    ],
+    "description": "Create an error UI for this route"
+  },
+  "Head": {
+    "scope": "javascriptreact, javascript, typescriptreact",
+    "prefix": "head",
+    "body": [
+      "export default function $1Head() {",
+      "\treturn (",
+      "\t\t$2",
+      "\t)",
+      "}"
+    ],
+    "description": "Create a head for this route"
+  },
+  "Not found": {
+    "scope": "javascriptreact, javascript, typescriptreact",
+    "prefix": "notfound",
+    "body": [
+      "export default function $1NotFound() {",
+      "\treturn (",
+      "\t\t$2",
+      "\t)",
+      "}"
+    ],
+    "description": "Create a not found UI for this route"
+  }
+}
