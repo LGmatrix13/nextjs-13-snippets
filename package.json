@@ -15,12 +15,18 @@
     "Snippets"
   ],
   "contributes": {
-    "snippets": [
-      {
-        "language": "javascript, javascriptreact, typescriptreact",
-        "path": "./snippets/snippets.code-snippets"
-      }
-    ]
+      "snippets": [
+        {
+          "language": "javascript",
+          "path": "./snippets/snippets.code-snippets"
+        }, {
+          "language": "javascriptreact",
+          "path": "./snippets/snippets.code-snippets"
+        }, {
+          "language": "typescriptreact",
+          "path": "./snippets/snippets.code-snippets"
+        }
+      ]
   },
   "repository": {
     "type": "git",
